@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="pomodoro-wrapper">
+            <div class="pomodoro-header">
+                <button id="deep-work">Deep Work</button>
+                <button id="long-rest">Long Rest</button>
+                <button id="short-rest">Short Rest</button>
+            </div>
+            <div class="pomodoro-container">
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="hours" min="0" max="99" value="00">
+                </div>
+                <span>:</span>
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="minutes" min="0" max="59" value="00">
+                </div>
+                <span>:</span>
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="seconds" min="0" max="59" value="00">      </div>
+            </div>
+            <div class="long-rest-container">
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="hours" min="0" max="99" value="00">
+                </div>
+                <span>:</span>
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="minutes" min="0" max="59" value="00">
+                </div>
+                <span>:</span>
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="seconds" min="0" max="59" value="00">
+                </div>
+            </div>
+            <div class="short-rest-container">
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="hours" min="0" max="99" value="00">
+                </div>
+                <span>:</span>
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="minutes" min="0" max="59" value="00">
+                </div>
+                <span>:</span>
+                <div class="input-group">
+                    <input type="number" class="no-arrows" id="seconds" min="0" max="59" value="00">
+                </div>
+            </div>
+    </main>
+    <script src="calendarBuild.js"></script>
+</body>
+</html>
